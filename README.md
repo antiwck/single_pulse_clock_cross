@@ -9,5 +9,5 @@ If domain A sends pulses faster than domain B can consume, `b` will remain asser
 
 
 <img src="Single Pulse Clock Crosser.png"><br />
-The image above shows an example of pulse "a" in clock domain a clock crossing to pulse "b" in clock domain b.
+The image above shows an example of pulse "a" in clock domain a clock crossing to pulse "b" in clock domain b with 100 pulses.
 Given that the clock frequency of clock a is 100Mhz, and clock b is 28.41Mhz. [Asynchronous clocks]

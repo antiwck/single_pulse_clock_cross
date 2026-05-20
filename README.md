@@ -7,4 +7,7 @@ The `busy` signal indicates when the buffer is full and can't accept more pulses
 The module synchronizes `a` pulses from domain A to domain B. 
 If domain A sends pulses faster than domain B can consume, `b` will remain asserted for multiple cycles to represent the queued pulses. 
 
+
 <img src="Single Pulse Clock Crosser.png"><br />
+The image above shows an example of pulse "a" in clock domain a clock crossing to pulse "b" in clock domain b.
+Given that the clock frequency of clock a is 100Mhz, and clock b is 28.41Mhz. [Asynchronous clocks]
